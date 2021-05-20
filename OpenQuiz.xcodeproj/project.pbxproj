@@ -13,6 +13,9 @@
 		FCCCD34C264DB1A700EA90E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCD34A264DB1A700EA90E6 /* Main.storyboard */; };
 		FCCCD34E264DB1AB00EA90E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCCD34D264DB1AB00EA90E6 /* Assets.xcassets */; };
 		FCCCD351264DB1AB00EA90E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCCD34F264DB1AB00EA90E6 /* LaunchScreen.storyboard */; };
+		FCFA8546265459D800545203 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA8545265459D800545203 /* Game.swift */; };
+		FCFA854826545A1B00545203 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA854726545A1A00545203 /* Question.swift */; };
+		FCFA854A26545DC400545203 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA854926545DC400545203 /* QuestionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FCCCD352264DB1AB00EA90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCCCD35E264DCA8A00EA90E6 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
 		FCCCD35F264DCAF600EA90E6 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Balham.otf; path = ../../../../Downloads/Balham.otf; sourceTree = "<group>"; };
+		FCFA8545265459D800545203 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FCFA854726545A1A00545203 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FCFA854926545DC400545203 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		FCCCD343264DB1A700EA90E6 /* OpenQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				FCCCD352264DB1AB00EA90E6 /* Info.plist */,
 				FCCCD35B264DCA0F00EA90E6 /* View */,
 				FCCCD35A264DCA0600EA90E6 /* Model */,
 				FCCCD35D264DCA2300EA90E6 /* Supporting files */,
@@ -69,6 +76,9 @@
 		FCCCD35A264DCA0600EA90E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA8545265459D800545203 /* Game.swift */,
+				FCFA854726545A1A00545203 /* Question.swift */,
+				FCFA854926545DC400545203 /* QuestionManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,7 +108,6 @@
 				FCCCD346264DB1A700EA90E6 /* SceneDelegate.swift */,
 				FCCCD35E264DCA8A00EA90E6 /* Balham.otf */,
 				FCCCD34D264DB1AB00EA90E6 /* Assets.xcassets */,
-				FCCCD352264DB1AB00EA90E6 /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -174,9 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA854826545A1B00545203 /* Question.swift in Sources */,
 				FCCCD349264DB1A700EA90E6 /* ViewController.swift in Sources */,
 				FCCCD345264DB1A700EA90E6 /* AppDelegate.swift in Sources */,
 				FCCCD347264DB1A700EA90E6 /* SceneDelegate.swift in Sources */,
+				FCFA8546265459D800545203 /* Game.swift in Sources */,
+				FCFA854A26545DC400545203 /* QuestionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
